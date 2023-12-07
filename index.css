@@ -1,0 +1,128 @@
+#main{
+    display: grid;
+    grid-template-columns: auto auto  auto;
+    background-color:honeydew;
+}
+
+header{
+    background-color: bisque;
+    display: flex;
+    height: 60px;
+    width: 100%;
+   justify-content:space-around;
+    border-style: solid;
+    border-color:aquamarine;
+    grid-column: 1/4;
+   
+}
+a{
+   
+    text-decoration: none;
+    
+
+}
+a.texthover:hover,a.texthover:active{
+   font-size: 130%;
+
+}
+.logo{
+    
+
+   flex-wrap: wrap;
+   align-content: center;
+   margin-left: 5%;
+    flex-grow: 1;
+}
+.logo:hover{
+    transform: rotatex(40deg);
+    transform: rotatey(45deg);
+   
+}
+
+.nav{
+    display: flex;
+    justify-content:space-around;
+    flex-grow: 1;
+   flex-wrap: wrap;
+   align-content: center;
+    
+}
+aside{
+    height:100%;
+    width: 120px;
+    border-style:solid;
+    border-color:aquamarine;    
+    grid-row: 2/6;
+   
+}
+.foraside{
+    margin-bottom: 100%;
+    background-color: aliceblue;
+    
+}
+label:hover{
+    background-color: aqua;
+}
+.section1{
+    height: 50vh;
+    width: 100%;
+     /*border-style:solid;
+    border-color:aquamarine;*/
+    grid-column:2/4;
+}
+.section2{
+    height:50vh;
+    width:100%;
+    /*border-style:solid;
+    border-color:aquamarine;*/
+    grid-column: 2/3;
+}
+.section3{
+    height: 50vh;
+    width: 100%;
+     /*border-style:solid;
+    border-color:aquamarine;*/
+    grid-column: 3/4;
+}
+.section4{
+    height: 50vh;
+    width: 100%;
+    /*border-style:solid;
+    border-color:aquamarine;*/
+    grid-column: 2/3;
+}
+.section5{
+    height: 50vh;
+    width: 100%;
+    /*border-style:solid;
+    border-color:aquamarine;*/
+    grid-column: 3/4;
+}
+.section6{
+    height:50vh;
+    width:100%;
+    grid-column:2/3;
+}
+.section7{
+    height:50vh;
+    width:100%;
+    grid-column:3/4;
+}
+footer{
+   border-style: groove;
+    grid-column:1/4;
+    width: 100%;
+    background-color:blanchedalmond;
+    color: white;
+    text-align: center;
+}
+  
+button{
+    background-color: black;
+    color: white;
+    border-style: solid;
+    border-radius: 30px;
+}
+button:hover,button:active{
+    font-size: 150%;
+}
